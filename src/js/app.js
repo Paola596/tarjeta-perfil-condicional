@@ -54,7 +54,7 @@ function render(variables = {}) {
             <li><a href="https://linkedin.com/${
               variables.linkedin == null
                 ? "school/4geeks-academy-vzla"
-                : "in/"variables.linkedin
+                : "in/"+variables.linkedin
             }"><i class="fab fa-linkedin"></i></a></li>
             <li><a href="https://instagram.com/${
               variables.instagram == null
